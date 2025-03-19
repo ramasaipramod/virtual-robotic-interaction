@@ -42,20 +42,28 @@ This project implements a real-time gesture control system for robotic applicati
 ### Setup for Camera based Gesture Classification
 
 1. Install Python dependencies
+```console
 cd CamGest/HandGesture
 pip install -r requirements.txt
+```
 
-2. Run the application
+3. Run the application
+```console
 python app.py
+```
 
 ### Setup for EMG based Gesture Classification
 
 1. Install Python dependencies
+```console
 cd Server
 pip install -r requirements.txt
+```
 
-2. Start the Server
+3. Start the Server
+```console
 python app.py
+```
 
 ### Model Training
 
