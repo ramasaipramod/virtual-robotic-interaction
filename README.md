@@ -2,40 +2,6 @@
 
 This project implements a real-time gesture control system for robotic applications using multimodal sensing (EMG signals and video). The system processes both EMG and video data to enable gesture-based control of a robotic arm in a virtual environment.
 
-### Project Structure
-.
-├── CamGest/
-│   ├── GestureClassifier/
-│   │   ├── default.hdf5
-│   │   └── default.tflite
-│   └── HandGesture/
-│       ├── keypoint_classification.ipynb
-│       ├── app.py
-│       ├── requirements.txt
-│       └── model/
-│           └── keypoint_classifier/
-│               ├── keypoint.csv
-│               ├── keypoint_classifier.tflite
-│               ├── keypoint_classifier_label.csv
-│               └── keypoint_classifier.py
-├── EmgGest/
-│   ├── Data/
-│   │   ├── data.csv
-│   │   └── rawdata.csv
-│   ├── EmgSim/
-│   │   ├── app.js
-│   │   ├── index.html
-│   │   ├── style.css
-│   │   └── Classification/
-│   │       └── EMGClassification.ipynb
-│   └── Server/
-│       ├── app.py
-│       └── utils.py
-└── UnityProject/
-    ├── Assets/
-    ├── ProjectSettings/
-    └── UserSettings/
-
 ### Components
 
 1. Camera based gesture recognition
